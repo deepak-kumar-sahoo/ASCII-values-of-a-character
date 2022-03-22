@@ -1,0 +1,20 @@
+import java.util.Scanner;  
+public class PrintAsciiValueExample4  
+{  
+public static void main(String args[])  
+{  
+System.out.print("Enter a character: ");  
+Scanner sc = new Scanner(System.in);  
+char chr = sc.next().charAt(0);  
+int asciiValue = chr;  
+System.out.println("ASCII value of " +chr+ " is: "+asciiValue);  
+}  
+}
+
+output:-
+==========
+Enter a character: P
+ASCII value of P is: 80
+
+Enter a character: G
+ASCII value of G is: 71

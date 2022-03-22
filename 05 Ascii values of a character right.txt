@@ -1,0 +1,42 @@
+public class AsciiValueOfAllChracters  
+{  
+public static void main(String[] args)   
+{  
+for(int i = 0; i <= 255; i++)  
+{  
+System.out.println(" The ASCII value of " + (char)i + "  =  " + i);  
+}  
+}  
+}
+
+output:-
+=========
+ The ASCII value of ?  =  227
+ The ASCII value of ä  =  228
+ The ASCII value of å  =  229
+ The ASCII value of æ  =  230
+ The ASCII value of ç  =  231
+ The ASCII value of è  =  232
+ The ASCII value of é  =  233
+ The ASCII value of ê  =  234
+ The ASCII value of ë  =  235
+ The ASCII value of ì  =  236
+ The ASCII value of í  =  237
+ The ASCII value of î  =  238
+ The ASCII value of ï  =  239
+ The ASCII value of ?  =  240
+ The ASCII value of ñ  =  241
+ The ASCII value of ò  =  242
+ The ASCII value of ó  =  243
+ The ASCII value of ô  =  244
+ The ASCII value of ?  =  245
+ The ASCII value of ö  =  246
+ The ASCII value of ÷  =  247
+ The ASCII value of ?  =  248
+ The ASCII value of ù  =  249
+ The ASCII value of ú  =  250
+ The ASCII value of û  =  251
+ The ASCII value of ü  =  252
+ The ASCII value of ?  =  253
+ The ASCII value of ?  =  254
+ The ASCII value of ÿ  =  255
