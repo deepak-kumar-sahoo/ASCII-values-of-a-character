@@ -1,0 +1,32 @@
+// Java program to print ASCII Value of Character
+// using format specifier
+
+// Importing format library
+import java.util.Formatter;
+
+public class dilip4 {
+
+	// Main driver method
+	public static void main(String[] args)
+	{
+		// Character whose ASCII is to compute
+		char character = '}';
+
+		// Initializing the format specifier
+		Formatter formatSpecifier = new Formatter();
+
+		// Converting the character to integer and
+		// ASCII value is stored in the format specifier
+		formatSpecifier.format("%d", (int)character);
+
+		// Print the corresponding ASCII value
+		System.out.println(
+			"The ASCII value of the character ' "
+			+ character + " ' is " + formatSpecifier);
+	}
+}
+
+
+output:-
+===========
+The ASCII value of the character ' } ' is 125
